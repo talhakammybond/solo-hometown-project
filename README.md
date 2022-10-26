@@ -1,8 +1,7 @@
 # Visit Sikkim Solo Project obn Scrimba
 
 - Took help from [https://github.com/whozieQ]
-- Was stuck in Flex but then went through the different things I learnt earlier.
--
+- Was stuck in Flexbox but then went through the different things I learnt earlier.
 
 ## About Scrimba
 
