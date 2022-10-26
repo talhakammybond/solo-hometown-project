@@ -1,0 +1,129 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+/*
+Wallpaper from unsplash and some gradients checked onlien
+*/
+body {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    color: white;
+    
+
+}
+
+img {
+    width: 100px;
+}
+
+#hero {
+       /*top section picture and titles*/
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: start;
+   
+       background-size: cover;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-image: url("images/sikkim.jpg");
+}
+
+.hero-title {
+    margin: 30px;
+    background: #1D3557;
+    padding: 4px 40px;
+    border-radius: 14px;
+    text-shadow: 0 0 3px black ;
+}
+
+.hero-subtitle{
+    margin: 100px 0 40px 0;
+    background: #A8DADC;
+    padding: 4px 12px;
+    border-radius: 14px;
+    text-shadow: 0 0 5px black ;
+}
+
+#activities {
+    background: #efd9ce;
+}
+
+.activities-box {
+    /*this box constrains the activity columns to match
+    the width of the hero section*/
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+/*keep same width as banner picture*/
+    width: 900px;
+    margin:auto;
+    padding: 60px 0px;
+    background: #efd9ce;
+    color: black;
+}
+
+.activity {
+    /*each activity picture and description section*/
+    width: 200px;
+}
+
+.activity-img {
+    /*individual activity image designed to be in a round circle*/
+    border-radius: 50%;
+    width: 150px;
+}
+
+#yourguide {
+    /*displays one or more 'card's introducing people*/
+    padding: 60px 0px;
+    background-color: whitesmoke;
+}
+
+.guide-card {
+    /* creates the framing 'card' on which the guide contents sits*/
+    width: 425px;
+    margin: 30px  auto;
+    padding: 15px;
+
+    display: flex;/*allows the img and text to sit side by side*/
+    justify-content: space-around;
+
+    background: #92b4a7;
+    border-bottom: 10px solid #393E41;
+    border-radius: 6px;
+}
+.guide-img {
+    /*the guide picture*/
+    width: 180px;
+    height: min-content;
+    border-radius: 6px;
+    margin: 25px 15px 25px 0px;
+
+}
+.guideinfo{
+    /*the guide's info and descriptive text*/
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+
+}
+
+#footer {
+    font-family: ubuntu;
+    font-style: bold;
+    color: black;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: blue;
+}
